@@ -9,7 +9,7 @@ public class PriceQuantity {
 		/* It would be common that money would be a float or a double, however, I am working with standard flat amounts of money with no decimal or change. */
 
 
-    //Initialize Scanner
+    	//Initialize Scanner
 		Scanner ezScan = new Scanner(System.in);
 
 		//Divider 
