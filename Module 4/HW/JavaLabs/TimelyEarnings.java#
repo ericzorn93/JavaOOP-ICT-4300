@@ -1,0 +1,33 @@
+//Imports
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class TimelyEarnings {
+
+	private static DecimalFormat df2 = new DecimalFormat(".##");
+
+	public static void main (String[] args) {
+		//Declaring the Scanner
+		Scanner kb = new Scanner(System.in);
+      
+      System.out.print("How many days have you worked? ");
+      int daysWorked = kb.nextInt();
+      double penny = .99;
+      double day = 0;
+      double totalSalary;
+      
+      
+      if (daysWorked >= 2) {
+      	for (int i = 0; i <= daysWorked; i++) {
+      		day = day + penny;
+      		System.out.println("Day " + i + ": " + " $" + df2.format(day * day));
+            totalSalary = daysWorked;
+            System.out.println("Total Income: " + totalSalary);
+      	}
+      } else {
+      	System.out.println("You need to work more than one day to make a salary!");
+      }
+
+	}
+
+}

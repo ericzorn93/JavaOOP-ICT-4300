@@ -20,6 +20,7 @@ public class BodyMassIndex {
         System.out.print("How tall are you in inches? ");
         height = input.nextInt();
         
+        //Error Message
         if (height >= 96) {
             System.out.println(errorHeight);
             System.exit(0);
@@ -34,7 +35,7 @@ public class BodyMassIndex {
         } else if (bmi < 18.5) {
             System.out.println("Your BMI is Underweight!");
         } else if (bmi >= 25 && bmi <= 29) {
-            System.out.println("Your BMI is overweight!");
+            System.out.println("Your BMI is Overweight!");
         } else if (bmi >= 30) {
             System.out.println("Your BMI is Obese!");
         }

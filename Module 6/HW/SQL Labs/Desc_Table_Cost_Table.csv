@@ -1,0 +1,7 @@
+Field,Type,Null,Key,Default,Extra
+shipper,varchar(40),NO,,NULL,
+min_size,"double(6,2)",NO,,NULL,
+max_size,"double(6,2)",NO,,NULL,
+max_weight,"double(6,2)",NO,,NULL,
+time_frame,"double(3,0)",NO,,NULL,
+cost_factor,"double(4,2)",NO,,NULL,
